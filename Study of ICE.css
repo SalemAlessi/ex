@@ -1,0 +1,128 @@
+.Details {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../Img/problem3-1.jpg);
+    background-size: contain;
+
+}
+
+.Details h3{
+    font-size: 40px;
+}
+
+.Details p {
+    font-size: 30px;
+}
+
+.Text_Equation{
+    background-image: url(../Img/problem3.jpg);
+    background-size:contain ;
+}
+
+.Equation{
+    background-color: rgb( 50, 166, 168);
+}
+
+
+.Equation:hover{
+    filter: blur(0px);
+}
+
+#ClickDesign{
+    background-color: green;
+    border-radius: 20px;
+}
+#ClickDesign:hover{
+
+    border-radius:0px;
+
+}
+
+
+@media (max-width: 800px){
+
+
+    .Details {
+        display: flex;
+        justify-content: space-between;
+        background-color: aliceblue;
+        background-image: none;
+        width: 350px;
+        margin: 0px;
+        padding: 0px;
+        
+    
+    }
+    .Details > div{
+        width: 300px;
+    }
+    .Details > div img {
+        width: 200px;
+        
+    }
+    .Details h3{
+        font-size: 10px;
+    }
+    
+    .Details p {
+        font-size: 10px;
+    }
+
+    
+.Text_Equation{
+    background-image:none;
+    background-color:cornsilk;
+
+}
+.Text_Equation p , ol li {
+    color: black;
+}
+.Text_Equation img {
+    width: 300px;
+    height: 300px;
+}
+
+.Equation{
+    background-color: rgb(132, 224, 226);
+    height:150px;
+}
+
+.DesignInput{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 0px;
+    flex-wrap: wrap;
+   
+}
+
+.DesignInput div > input {
+    width: 100px;
+    transition: 3s  width; 
+}
+.DesignInput div >input[value] {
+    text-align: center;
+    font-size: 5px;
+}
+
+.DesignInput div > input:hover {
+    width: 150px; 
+}
+
+.DesignInput div > input:focus{
+    background-color: rgba(109, 109, 245, 0.44);
+    border-radius: 10px;
+}
+
+.InnerHtml{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    flex-wrap: wrap;
+}
+.InnerHtml>p{
+    font-size: 10px;
+    
+}
+
+}

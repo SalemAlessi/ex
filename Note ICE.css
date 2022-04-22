@@ -1,0 +1,189 @@
+
+h1{
+    margin: 0;
+    padding: 0;
+    background-color: crimson;
+    border-radius: 20px;
+}
+.Note_ICE{
+    background-color: rgba(233, 214, 186, 0.768);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    border: solid 10px crimson;
+    border-radius: 20px;
+
+}
+.Note_ICE >div {
+    background-color: rgba(255, 235, 205, 0.549);
+    width: 200px;
+    border-radius: 20px;
+}
+
+.Supercharging_System{
+    background-color: rgba(233, 214, 186, 0.768);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px;
+    border: solid 10px crimson;
+    border-radius: 20px;
+}
+.Supercharging_System >div{
+    background-color: rgba(255, 235, 205, 0.549);
+    width: 500px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.Supercharging_System >div:hover , .Note_ICE>div:hover {
+    background-color: rgba(156, 129, 88, 0.849);   
+}
+
+.Fuel{
+    background-color: rgba(233, 214, 186, 0.768);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px;
+    border: solid 10px crimson;
+    border-radius: 20px; 
+}
+.Fuel > div{
+    width: 500px;
+}
+.Fuel h4{
+    font-size: 25px;
+
+}
+.Fuel p {
+    font-size:20px ;
+}
+table{
+    margin-bottom: 100px;
+}
+table caption{
+    background-color: bisque;
+}
+table ,  td{
+    width: 500px;
+}
+
+tr:nth-child(odd) {
+    background-color: #9fcece;
+  
+}
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  
+}
+
+tr:hover {background-color: #82a6dcc7;}
+
+
+
+@media (max-width: 800px){
+
+    
+h1{
+    margin: 0;
+    padding: 0;
+    background-color: crimson;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 300px;
+}
+.Note_ICE h2{
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+}
+.Note_ICE{
+    background-color: rgba(233, 214, 186, 0.768);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 300px;
+    margin: 0px auto;
+    border: solid 10px crimson;
+    border-radius: 20px;
+
+}
+.Note_ICE >div {
+    background-color: rgba(255, 235, 205, 0.549);
+    width: 200px;
+    border-radius: 20px;
+}
+
+
+.Supercharging_System{
+    background-color: rgba(233, 214, 186, 0.768);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    border: solid 10px crimson;
+    border-radius: 10px;
+    width: 300px;
+}
+.Supercharging_System >div{
+    background-color: rgba(255, 235, 205, 0.549);
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.Supercharging_System >div:hover , .Note_ICE>div:hover {
+    background-color: rgba(156, 129, 88, 0.849);   
+}
+.Supercharging_System h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.Fuel{
+    background-color: rgba(233, 214, 186, 0.768);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    border: solid 10px crimson;
+    border-radius: 20px; 
+    width: 300px;
+}
+.Fuel > div{
+    width: 300px;
+}
+.Fuel h4{
+    font-size: 20px;
+    text-align: center;
+
+}
+.Fuel p {
+    font-size:15px ;
+}
+table{
+    margin-bottom: 100px;
+}
+table caption{
+    background-color: black;
+    color: white;
+}
+table ,  td{
+    width: 250px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #9fcece;
+  
+}
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  
+}
+
+tr:hover {background-color: #82a6dcc7;}
+
+
+}

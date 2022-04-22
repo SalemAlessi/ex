@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Thermodynamic.css">
+    <link rel="stylesheet" href="ThermodynamicProblem.css">
+    <title>Thermodynamic Analysis Of ICE</title>
+    <link rel="stylesheet" href="../Css/Hom.css">
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Shizuru&display=swap');
+        </style>
+</head>
+<body>
+    
+    <!-- <div class="Navbar">
+
+        <ul >
+           <li><a class="active" href="http://127.0.0.1:5502/Internal%20Combustion%20Engine/HTML/index.html">Home</a> </li>
+           <li> <a href="http://127.0.0.1:5502/Internal%20Combustion%20Engine/HTML/Intro-ICE.html">Introduction to <title>Internal Combustion Engine</title>ICE</a> </li>
+           <li> <a href="http://127.0.0.1:5502/Internal%20Combustion%20Engine/HTML/Thermodynamic.hTML">Thermodynamic Analysis of ICE</a> </li>
+           
+           <li> <a href="http://127.0.0.1:5502/Internal%20Combustion%20Engine/HTML/Study%20of%20ICE.html">Study Of Internal Combustion Engines</a> </lilass=>
+           <li> <a href="http://127.0.0.1:5502/Internal%20Combustion%20Engine/HTML/Engine%20Performance.html">Engine Performance</a> </li>
+           
+           <li> <a href="http://127.0.0.1:5502/Internal%20Combustion%20Engine/HTML/Note%20ICE.html">Note of ICE</a> </li>
+
+       </ul> 
+</div> -->
+
+
+     <!--Start Navbar-->
+    
+        <!--
+           //code here...
+         -->
+         <div class="html-container">
+            <div class="html-section">
+              <div class="html-project">
+                <div class="navigation">
+                  <nav>
+                    <ul class="nav-type">
+                      <li><a href="https://salemalessi.github.io/Project/">Home</a></li>
+                      <li><a href="https://salemalessi.github.io/Project/Internal%20Combustion%20Engine/HTML/Intro-ICE.html"  class="active1"><title>Introduction to Internal Combustion Engine</title>ICE</a></li>
+                      <li><a href="https://salemalessi.github.io/Project/Internal%20Combustion%20Engine/HTML/Thermodynamic.html"  class="active2">Thermodynamic Analysis of ICE</a></li>
+                      <li><a href="https://salemalessi.github.io/Project/Internal%20Combustion%20Engine/HTML/Study%20of%20ICE.html"  class="active1">Study Of Internal Combustion Engines</a></li>
+                      <li><a href="https://salemalessi.github.io/Project/Internal%20Combustion%20Engine/HTML/Engine%20Performance.html"  class="active2">Engine Performance</a></li>
+                      <li><a href="https://salemalessi.github.io/Project/Internal%20Combustion%20Engine/HTML/Note%20ICE.html" class="active1">Note of ICE</a></li>
+                    
+              
+                        
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+           
+         
+      <!--END Navbar-->
+
+    <div class="ideal-cycle">
+    <h1>Thermodynamic Analysis Of Internal Combustion Engine</h1>    
+        <ul>
+           <div><li>Carnot Cycle</li>
+            <img src="image/Thermodynamic/carnot-cycle.jpg" alt="Error" width="500px"></div> 
+           <div><li>Otto Cycle</li>
+            <img src="image/Thermodynamic/otto-cycle.jpg" alt="Error" width="500px"></div>
+           <div><li>Diesel Cycle</li>
+            <img src="image/Thermodynamic/Diesel-cycle.jpg" alt="Error" width="500px"></div> 
+           <div> <li>Dual Cycle</li>
+            <img src="image/Thermodynamic/dual-cycle.jpg" alt="Error" width="500px"></div> 
+          
+        </ul>
+    </div>
+    <br>
+    <hr>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="ThermodynamicProblem.css">
+      <title>Thermodynamic Problem</title>
+      
+  </head>
+  <body>
+      <div class="Text_Equation">
+            <p>Problem 1: In an air standard Otto cycle <mark>the compression ratio is r=7 </mark> and the compression begins at <mark>T1=35C and P1=0.1 MPa</mark>. The maximum temperature of the cycle is <mark>T3=1100 C</mark>.Find Tho Following: </p>
+            
+              <ol type="1">
+                  <li>Temperature And The Pressure At Various Points In The Cycle.</li>
+                  <li>The Heat Supplied Per kg Of Air.</li>
+                  <li>Work Done Per kg Of Air.</li>
+                  <li>The Cycle Efficiency.</li>
+                  <li>The MEP Of The Cycle.</li>
+              </ol>
+             
+          
+         <img src="Img/engine.gif" alt="Error" width="500px" height="200px">
+      </div>
+      
+  
+      <div class="Equation">
+  
+          <div class="DesignInput">
+            <div> <!--Compression Ratio-->
+              <input type="text" value='7' id="Compression-Ratio" placeholder='r'><br></div>
+            <div>
+              <!--FirstPressure-->
+              <input type="text" value='0.1' name="First-Pressure" id="FirstPressure" placeholder="P1(Mpa)"><br></div>
+            <div>  <!--FirstTemperature-->
+              <input type="text" value='35' name="First-Temperature" id="FirstTemperature" placeholder="T1,Celsius" ><br></div>
+            <div><!--ThirdTemperature-->
+              <input type="text"  value='1100' name="Third-Temperature" id="ThirdTemperature" placeholder="T3,Celsius"><br></div>
+            <div><input type="button" value="Calculate" id="Click"></div> 
+          </div>
+          
+              
+          
+          <div class="InnerHtml">
+          
+                  <p id="SecondPressure"></p>  <p id="SecondTemperature"></p> 
+                  <p id="ThirdPressure"></p>   <p id="FourthPressure"></p>
+                  <p id="HeatInput"></p>       <p id="HeatRejected"> </p>
+                  <p id="NetWork"></p>         <p id="Efficiency"></p>
+              <p id="MEP"></p>
+          
+          </div>
+          
+      </div>
+  
+  
+      <!-- Second Problem-->
+      <div class="Text_Equation">
+  
+          <p>In a Diesel cycle, <mark>the compression ratio is r=15</mark> . Compression begins at<mark>0.1 Mpa, 40C</mark> . The heat added is<mark>1675 KJ/kg</mark> .Find
+          
+              <ol>
+                  <li>The Maximum Temperature In The Cycle.</li>
+                  <li>Work Done Per kg Of Air.</li>
+                  <li>The Cycle Efficiency.</li>
+                  <li>The Temperature At The End Of The Isentropic Expansion.</li>
+                  <li>The Cut‐Off Ratio.</li>
+                  <li>The MEP Of The Cycle.</li>
+              </ol>
+          </p>
+          <img src="Img/engine1.gif" alt="Error" width="350px" height="200px">
+      </div>
+  
+      <div class="Equation">
+          <div class="DesignInput">
+            <div> <!--Compression Ratio-->
+              <input type="text" value='15' id="Compression-Ratio_Disel" placeholder='r'><br></div>
+            <div><!--FirstPressure-->
+              <input type="text" value='0.1' name="First-Pressure" id="FirstPressure_Disel" placeholder="P1(Mpa)"><br></div>
+            <div> <!--FirstTemperature-->
+              <input type="text" value='40' name="First-Temperature" id="FirstTemperature_Disel" placeholder="T1(Kelvin)" ><br></div>
+            <div> <!--Heat Added-->
+              <input type="text"  value='1675' name="Heat_Added" id="Heat_Added_Disel" placeholder="Q_in(Kj/Kg)"><br></div>
+            <div>  <input type="button" value="Calculate" id="ClickDisel"></div>
+          </div>
+  
+          <div class="InnerHtml">
+              <p id="SecondTemperature_Disel"></p>
+              <p id="ThirdTemperature_Disel"></p>  <p id="MaximumVolume_Disel"></p> 
+              <p id="ThirdVolume_Disel"></p>       <p id="FourthTemperature_Disel"></p>
+              <p id="HeatOutput_Disel"></p>         <p id="NetWork_Disel"> </p>
+              <p id="Efficiency_Disel"></p>         
+              <p id="MEP_Disel"></p>
+      
+          </div>
+  
+      </div>
+  
+      <script src="ThermodynamicProblem.js"></script>
+  </body>
+  </html>
+      
+  
+      <div class="End"><p>Internal Combustion Engine</p></div>
+
+
+    <script src="js/ThermodynamicProblem.js"></script>
+</body>
+</html>
+
+
+
+

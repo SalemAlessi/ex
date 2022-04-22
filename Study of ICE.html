@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="ThermodynamicProblem.css">
+    <link rel="stylesheet" href="Thermodynamic.css">
+    <link rel="stylesheet" href="Study of ICE.css">
+    <link rel="stylesheet" href="Hom.css">
+    <link rel="stylesheet" href="nav.css">
+    <title>Study Of Internal Combustion Engine</title>
+</head>
+<body>
+
+    <!-- <div class="Navbar">
+
+        <ul >
+           <li><a class="active" href="http://127.0.0.1:5502/Internal%20Combustion%20Engine/HTML/index.html">Home</a> </li>
+           <li> <a href="http://127.0.0.1:5502/Internal%20Combustion%20Engine/HTML/Intro-ICE.html">Introduction to <title>Internal Combustion Engine</title>ICE</a> </li>
+           <li> <a href="http://127.0.0.1:5502/Internal%20Combustion%20Engine/HTML/Thermodynamic.hTML">Thermodynamic Analysis of ICE</a> </li>
+           
+           <li> <a href="http://127.0.0.1:5502/Internal%20Combustion%20Engine/HTML/Study%20of%20ICE.html">Study Of Internal Combustion Engines</a> </lilass=>
+           <li> <a href="http://127.0.0.1:5502/Internal%20Combustion%20Engine/HTML/Engine%20Performance.html">Engine Performance</a> </li>
+           
+           <li> <a href="http://127.0.0.1:5502/Internal%20Combustion%20Engine/HTML/Note%20ICE.html">Note of ICE</a> </li>
+
+       </ul> 
+    </div> -->
+
+     <!--Start Navbar-->
+    
+        <!--
+           //code here...
+         -->
+         <div class="html-container">
+            <div class="html-section">
+              <div class="html-project">
+                <div class="navigation">
+                  <nav>
+                    <ul class="nav-type">
+                      <li><a href="https://salemalessi.github.io/Project/">Home</a></li>
+                      <li><a href="https://salemalessi.github.io/Project/Internal%20Combustion%20Engine/HTML/Intro-ICE.html"  class="active1"><title>Introduction to Internal Combustion Engine</title>ICE</a></li>
+                      <li><a href="https://salemalessi.github.io/Project/Internal%20Combustion%20Engine/HTML/Thermodynamic.html"  class="active2">Thermodynamic Analysis of ICE</a></li>
+                      <li><a href="https://salemalessi.github.io/Project/Internal%20Combustion%20Engine/HTML/Study%20of%20ICE.html"  class="active1">Study Of Internal Combustion Engines</a></li>
+                      <li><a href="https://salemalessi.github.io/Project/Internal%20Combustion%20Engine/HTML/Engine%20Performance.html"  class="active2">Engine Performance</a></li>
+                      <li><a href="https://salemalessi.github.io/Project/Internal%20Combustion%20Engine/HTML/Note%20ICE.html" class="active1">Note of ICE</a></li>
+                    
+              
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+      <!--END Navbar-->
+    
+    <div class="Details">
+        <div>
+            <h3>Some Information Help You In The Following Equation.</h3>
+            <p>Centimeter Cube CC</p>
+            <p>Vc: Volume At Top Dead Center</p>
+            <p>Vd: difference Volume Between Bottom Dead Center And Top Dead Center.</p>
+            <p>a:Crank offest</p>
+            <p>r:Lenght Of Connecting Rod.</p>
+            <p>θ:Crank Angle.</p>
+            <p>Bore,B = Stroke,S when The Engine is Square.</p>
+            <p>Rotation Speed (RPM) divided by 60 to convert into RPS.</p>
+        </div>
+        <div><img src="Img/piston.jpg" alt="Error" width="500px"></div>
+        
+    </div>
+    <div class="Text_Equation">
+        <p>An automobile SI<mark> 6 cylinders I.C.E</mark>in 3000cc , that operates on four Stroke cycle at<mark>3600 rpm</mark>  .The<mark>compression ratio is 9.5</mark> , the <mark> of connecting rod is 16.6 cm</mark>  
+            and the engine is square (B=S). At this speed combustion end at<mark>20 degree from TDC</mark>. Calculate:
+            <ol>
+                <li>Cyliner Bore And Stroke Lenght</li>
+                <li>Average Piston Speed</li>
+                <li>Clearance Volume Of One Cyliner</li>
+                <li>Piston Speed At The End Of combustion</li>
+                <li>Distance The Piston Has Travel From TDC At The End Of combustion</li>
+                <li>Volume In The combustion Chamber At The End Of combustion</li>
+            </ol>
+        </p>    
+        <img src="Img/4StrokeEngine.gif" alt="Error" width="500px" height="500px">
+    </div>
+
+
+<div class="Equation">
+
+    <div class="DesignInput">
+        <div> <!--Number of Cyliner-->
+        <input type="text" value='6' id="Number_of_Cyliner" placeholder='Cyliner'><br></div>
+        <div> <!--Cube Centimeter-->
+        <input type="text" value='3000' name="Cube_centimeter" id="Cube_Centimeter" placeholder="CC"><br></div>
+        <div> <!--Rotation Speed-->
+        <input type="text" value='3600' name="Rotation Speed" id="Rotation_Speed" placeholder="rpm" ><br></div>
+        <div>   <!--Compression Ratio-->
+        <input type="text"  value='9.5' name="Compression_Ratio" id="Compression_Ratio" placeholder="ratio"><br></div>
+        <div>
+        <!--Lenght of connecting Rod-->
+        <input type="text" value='16.6' name="Lenght of connecting Rod" id="Lenght_of_connecting_Rod" placeholder="r(cm)"></div>
+        <div>
+        <!--Crank Angle-->
+        <input type="text" value="20" name="Crank Angle" id="Crank_Angle" placeholder="θ"></div>
+        <div>
+        <!--Button-->
+        <input type="button" value="Calculate" id="ClickDesign"></div>
+    </div>
+
+    <div class="InnerHtml">
+    
+      <p id="Cyliner_Bore_And_Stroke_Lenght"></p>       <p id="Average_Piston_Speed"></p> 
+      <p id="Clearance_Volume_Of_One_Cyliner"></p>      <p id="Piston_Speed_At_The_End_Of_combustion"></p>
+      <p id="Piston_Pistion"></p>
+      <p id="Distance_The_Piston_Has_Travel_From_TDC_At_The_End_Of_combustion"></p>       
+      <p id="Volume_In_The_combustion_Chamber_At_The_End_Of_combustion"> </p>
+
+</div>
+ 
+    
+</div>
+
+
+
+<script src="js/Study_of_ICE.js"></script>
+</body>
+</html>

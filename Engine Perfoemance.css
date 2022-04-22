@@ -1,0 +1,171 @@
+body{
+    background-color: rgba(25, 215, 222,0.010);
+
+}
+h1{
+    background-color: aqua;
+    font-size:50px;
+    width: 500px ;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 2s width , 2s background-color , 2s color;
+}
+
+h1:hover{
+    width: 1000px;
+    border-radius: 25px;
+    background-color: bisque;
+    color: rgb(194, 59, 59);
+
+}
+
+h2 , h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.Engine_Performance{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:stretch ;
+}
+
+.Engine_Performance div{
+    width: 450px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+
+}
+
+.InnerHtmlp{
+    display: flex;
+    font-size: 10px;
+    padding: 0px 5px;
+   
+}
+ 
+
+
+
+
+/* h1{
+    background-color: brown;
+color: blueviolet;
+}
+h2 {
+    color: chocolate;
+}
+h3{
+    color: rgba(210, 66, 30, 0.76);
+}
+table{
+    background-color: rgb(255, 0, 149);
+} */
+
+
+
+
+@media (max-width: 800px){
+    center h1{
+        font-size: 15px;
+        width: 150px;
+
+    }
+    center h1:hover{
+        width:300px ;
+    }
+    .Engine_Performance{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items:stretch ;
+    }
+    
+    .Engine_Performance div{
+        width: 300px;
+        background-color: aliceblue;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        height: 300px;
+    
+    
+    }
+    .Engine_Performance div:nth-of-type(Even){
+        background-color: antiquewhite;
+    }
+    .Engine_Performance div h2 , h3{
+        font-size: 17px;
+        margin-bottom: 5px;
+        font-weight: lighter;
+        text-align: center;
+    }
+    .Engine_Performance div p , ul {
+        font-size: 12px;
+        
+    }
+     .FourEqution .Equation {
+        background-color:aqua;
+        height: fit-content;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .FourEqution .Equation .DesignInput{
+        height: fit-content;
+    }
+    .FourEqution .Equation .InnerHtmlp{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 0px;
+        width: 250px;
+       
+    }
+    .FourEqution .Equation .InnerHtmlp > p{
+        width: 200px;
+        font-size: 10px;
+    }
+    .FourEqution .Equation .InnerHtml{
+        display: flex;
+        justify-content: space-evenly;
+        width: 200px;
+        flex-wrap: wrap;
+        margin-bottom: 0px;;
+    }
+    .FourEqution .Equation .InnerHtml>p{
+        font-size: 10px;
+        width: 200px;
+        
+    }
+
+    .FourEqution .DesignInput div > input {
+        width: 90px;
+        transition: 3s  width; 
+    }
+    .FourEqution .DesignInput div >input[value] {
+        text-align: center;
+        font-size: 5px;
+    }
+    
+    .FourEqution .DesignInput div > input:hover {
+        width: 100px; 
+    }
+    
+    .FourEqution .DesignInput div > input:focus{
+        background-color: rgba(109, 109, 245, 0.44);
+        border-radius: 10px;
+    }
+
+    body{
+        background-color: black;}
+     
+}

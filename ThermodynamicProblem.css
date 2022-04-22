@@ -1,0 +1,57 @@
+
+.Text_Equation{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../Img/problemback.jpg);
+    background-size:cover;
+    
+    /* background: rgb(112, 129, 244);
+    background: linear-gradient(90deg, rgba(68, 66, 238, 0.432) 0%, rgb(135, 134, 243) 21%, rgba(115, 152, 230, 0.875) 100%); */
+}
+.Text_Equation p , ol{
+    font-size: 15px;
+    color: white;
+}
+
+.Equation{
+    background-color: beige;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.DesignInput{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.DesignInput > input {
+    width: 150px;
+    transition: 3s  width; 
+}
+.DesignInput >input[value] {
+    text-align: center;
+    font-size: 30px;
+}
+
+.DesignInput > input:hover {
+    width: 250px; 
+}
+
+.DesignInput > input:focus{
+    background-color: rgba(109, 109, 245, 0.44);
+    border-radius: 10px;
+}
+
+
+.InnerHtml{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Click , #ClickDisel{
+    font-size: 35px;
+    background-color: green;
+    color: white;
+}

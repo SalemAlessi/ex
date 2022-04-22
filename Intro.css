@@ -1,0 +1,484 @@
+body{
+    /*background-image: url(../image/Basic/back-basic.jpg);*/ 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+*{
+    box-sizing: border-box;
+}
+.Basic{
+    position: relative;
+}
+.Basic h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    background-color: 	#f5f5f5;
+    width: fit-content;
+    margin: 0 auto;
+    
+}
+.Basic h1:hover{
+   
+    border-right: 6px solid #00ffff;
+    border-top: 6px solid #00ffff;
+}
+.Basic .Intro-P{
+    font-size: 25px;
+    text-transform: capitalize;
+    background-color: 	#f8f8ff;
+}
+
+.Basic .Intro-ul h2{
+    background-color: 	#dcdcdc;
+    width: fit-content;
+    color:blue;
+}
+
+.Basic .Intro-ul .Intro-li{
+    background-color: 	#fff0f5;
+    list-style: none;
+    width: 200px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.Intro-ul .drop{
+    display: inline-block;
+    position: relative;
+    
+}
+
+.Intro-ul .dropdownex{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 200px;
+    z-index: 1;
+    padding: 15px 20px;
+    box-shadow: 20px 15px 10px rgba(0, 0, 0, 0.8);
+}
+
+.Intro-ul .drop:hover .dropdownex{
+    display: inline;
+    left:100%;
+    border-left:5px solid #00ffff ;
+    top:-10px;
+    left:100%;
+    
+}
+.Intro-ul .dropdownin{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 200px;
+    z-index: 1;
+    padding: 15px 20px;
+    box-shadow: 20px 15px 10px rgba(0, 0, 0, 0.8);
+}
+
+.Intro-ul .drop:hover .dropdownin{
+    display: inline;
+    left:100%;
+    border-left:5px solid #00ffff ;
+    top: 80px;  
+    
+}
+/*Classification*/
+
+.classification h2{
+    background-color: 	#dcdcdc;
+    width: fit-content;
+    color:blue;
+}
+
+.classification2  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.classification ul li{
+    font-weight: bold;
+    font-family: 20px;
+    text-align:center;
+    
+}
+.classification   h3 ol li {
+    font-weight: lighter;
+    font-size: 30px;
+}
+.classification ul{
+    background-color: rgb(204, 212, 219);
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 20px 20px 2px 	#f0ffff;
+    opacity: 0.8;
+}
+.classification ul:hover{
+    opacity: 1;
+    box-shadow: 0px 0px 0px #f0ffff;
+   
+}
+
+img{
+    height:200px;
+
+}
+
+/* Internal Combustion Engine Part */
+
+.ContainerICEpart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ICEpart{
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    width: 500px;
+ 
+}
+.ICEpart Div:nth-of-type(odd){
+    background-color: 	#fff0f5;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.ICEpart Div p{
+    display: none;
+}
+.ICEpart div:hover p{
+    display: block;
+}
+.ICEpart div:nth-of-type(even){
+    background-color: 	#f8f8ff;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.ICEpart  h2{
+    text-align: center;
+    font-size: 20px;
+    background-color:	#f5f5dc;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+
+.img-ICE img{
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50px;
+}
+.Img-Engine {
+    display: flex; 
+    background-image: url(../image/Basic/piston.gif); 
+    background-color:  rgba(0, 0, 0, 0.5);
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.8;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: solid 5px 	#000080;
+    justify-content: space-around;
+}
+
+.Img-Engine >div{
+    border: 5px solid 	#008080;
+    width: 500px;
+    margin-bottom: 2px;
+    background-color:	#fffafa;
+}
+
+.Img-Engine img{
+    width: 400px;
+    margin-left: 50px;
+}
+.Img-Engine p {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+/* ICE Engine-Terminology */
+
+.ICE-Engine-Terminology{
+    background-color: #f0ffff;
+}
+.ICE-Engine-Terminology h2{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.ICE-Engine-Terminology > div {
+    border: solid 2px bisque;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.ICE-Engine-Terminology > div h3{
+    background-color: 	#e6e6fa;
+    font-size: 30px;
+    border-radius:500px;
+    width: 1000px;
+    transition: width 4s;
+}
+.ICE-Engine-Terminology > div h3:hover{
+    background-color: 	#a5a5f7;
+    border-radius:1000px;
+    width:1500px ;
+}
+.ICE-Engine-Terminology > div  p{
+    font-size: 25px;
+    background-color: 	#b2b2b6;
+    width: fit-content;
+    margin: 0 auto;
+}
+.ICE-Engine-Terminology > div:hover  p{
+    color: #008080;
+    background-color: 	#e2e2f1;
+}
+
+/* Mobile */
+
+@media (max-width: 800px){
+   .Basic{
+       width: 300px;
+       margin: 0px;
+   }
+   .Basic h1,h2{
+       font-size: 20px;
+   }
+   .Basic .Intro-ul .Intro-li {
+       width: 70px;
+       font-size: 15px;
+   }
+   .Intro-ul .dropdownex , .Intro-ul .dropdownin {
+       width: 120px;
+       height: 50px;
+   }
+   .Intro-ul .dropdownex ol , .Intro-ul .dropdownin ol{  
+       font-size: 10px;
+       margin: 0px;
+       padding: 0px;
+       display: inline;
+
+   }
+   .Intro-ul .dropdownin li , .Intro-ul .dropdownex li  {
+       font-size: 10px;
+   }
+   .Intro-ul .drop:hover .dropdownex  {
+    display: block;
+    left:100%;
+    border-left:2px solid #00ffff ;
+    top:-10px;
+    left:100%;
+    
+}
+.Intro-ul .drop:hover .dropdownin{
+    display: block;
+    left:100%;
+    border-left:2px solid #00ffff ;
+    top: 50px;  
+    
+}
+
+/*Classification*/
+
+.classification h2{
+    background-color: 	#00000065;
+    color:red;
+    font-size: 15px;
+    width: 300px;
+}
+.classification2  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.classification ul li{
+    font-weight: bold;
+    font-family: 10px;
+    text-align:center;
+    
+}
+.classification   h3 ol li {
+    font-weight: lighter;
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+.classification ul{
+    background-color: rgb(204, 212, 219);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 1px 	#f0ffff;
+    opacity: 0.8;
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+.classification ul:hover{
+    opacity: 1;
+    box-shadow: 0px 0px 0px #f0ffff;
+   
+}
+
+img{
+    height:100px;
+    width: 200px;
+
+}
+
+.ContainerICEpart {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ICEpart{
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    width: 500px;
+ 
+}
+.ICEpart Div:nth-of-type(odd){
+    background-color: 	#fff0f5;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.ICEpart Div p{
+    display: none;
+}
+.ICEpart div:hover p{
+    display: block;
+}
+.ICEpart div:nth-of-type(even){
+    background-color: 	#f8f8ff;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.ICEpart  h2{
+    text-align: center;
+    font-size: 20px;
+    background-color:	#e9e9c9;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+
+.img-ICE img{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.Img-Engine {
+    display: flex; 
+    background-image: url(../image/Basic/piston.gif); 
+    background-color:  rgba(0, 0, 0, 0.5);
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.8;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: solid 2px 	#000080;
+    justify-content: space-around;
+}
+
+.Img-Engine >div{
+    border: 5px solid 	#008080;
+    width: 300px;
+    margin-bottom: 1px;
+    background-color:	#fffafa;
+}
+
+.Img-Engine img{
+    width: 200px;
+    margin-left: 20px;
+}
+.Img-Engine p {
+    font-size: 25px;
+    text-align: center;
+
+}
+.ICE-Engine-Terminology{
+    background-color: #f0ffff;
+}
+.ICE-Engine-Terminology h2{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.ICE-Engine-Terminology > div {
+    border: solid 2px bisque;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.ICE-Engine-Terminology > div h3{
+    background-color: 	#e6e6fa;
+    font-size: 8px;
+    border-radius:500px;
+    width: 200px;
+    transition: width 4s;
+}
+.ICE-Engine-Terminology > div h3:hover{
+    background-color: 	#a5a5f7;
+    border-radius:200px;
+    width:300px ;
+}
+.ICE-Engine-Terminology > div  p{
+    font-size: 15px;
+    background-color: 	#b2b2b6;
+    width: 200px;
+    margin: 0 auto;
+}
+.ICE-Engine-Terminology > div:hover  p{
+    color: #008080;
+    background-color: 	#e2e2f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+}
+
+/* Custom */
+
+@media (max-width: 1199px) {
+}
